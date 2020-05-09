@@ -1,5 +1,7 @@
 # python-hljs
 
+> This is a horrible idea, but it's hobbyist programming; who's gonna stop me?
+
 An ugly hack to use highlight.js from Python using a node.js worker process.
 
 **Note:** Requires `node` to be in the `PATH` at runtime.
