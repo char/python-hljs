@@ -1,5 +1,9 @@
 const hljs = require("highlight.js")
 
+try {
+  require("../hljs-config.js")(hljs)
+} catch (err) {}
+
 const highlight = (language, code) => {
   if (language) {
     try {
